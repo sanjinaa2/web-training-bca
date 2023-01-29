@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "E:/C-Programming"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "web-training-bca"
+	}
+}
