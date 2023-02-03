@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    color: #fff;
+    background-color: #599fda;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    width: 900px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+}
+
+.hero-container{
+    color: black;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+}
+
+.hero{
+    width:900px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
