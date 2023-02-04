@@ -38,3 +38,14 @@ header{
     align-items: center;
     
 }
+
+.image-container{
+    display: flex;
+    justify-content: center;
+}
+
+.image{
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+}
