@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: lightcyan;
+    font-family: poppins, sans-serif;
+    font-size: 10px;
+}
+
+.timer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.timer-controls{
+    display: flex;
+}
+
+.timer-button{
+    background: none;
+    border: 0;
+    cursor: pointer;
+    font-size: 2em;
+    text-transform: uppercase;
+    background: rgba(0,0,0, 0.1);
+    padding: 1em;
+    font-family: poppins, sans-serif;
+}
+
+.timer-button:hover{
+    background: rgba(0,0,0, 0.2);
+}
+
+.timer-display{
+    display: flex;
+    flex-direction: column;
+}
+
+.Time-left{
+    font-size: 10em;
+    text-shadow: 4px 5px 0 rgba(0,0,0, 0.1);
+    
+}
